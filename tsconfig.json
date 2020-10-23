@@ -14,7 +14,13 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "angular-phone-formatter": [
+        "dist/angular-phone-formatter/angular-phone-formatter",
+        "dist/angular-phone-formatter"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
